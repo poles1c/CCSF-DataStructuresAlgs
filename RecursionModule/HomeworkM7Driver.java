@@ -29,8 +29,8 @@ public class HomeworkM7Driver {
 			if (lowerCaseWord.charAt(leftIndex) == 'q' && lowerCaseWord.charAt(leftIndex + 1) != 'u') {
 				return true;
 			} else {
-				// key take away here Court is that you can return a non boolean value here because ultimately if a q not followed
-				//by a u is not found then else will return false; hard lesson learned!
+				// key take away here is that you can return a non boolean value here because ultimately if a q not followed
+				//by a u is not found then else will return false
 				return qNotFollowedByUHelper(word, leftIndex + 1, rightIndex);
 				
 			}
